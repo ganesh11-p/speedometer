@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  background-color: #07080c;
+  background-size: cover;
+}
+
+.heading {
+  font-family: roboto;
+  font-size: 2rem;
+  color: #ffffff;
+  padding: 10px;
+  font-style: italic;
+}
+
+.image {
+  width: 50%;
+}
+
+.para {
+  font-family: roboto;
+  font-size: 1.75rem;
+  color: #cbd5e1;
+  padding: 10px;
+}
+
+.desc {
+  font-family: roboto;
+  font-size: 1rem;
+  color: #cbd5e1;
+  padding: 10px;
+}
+
+.button-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button1 {
+  height: 30px;
+  font-family: roboto;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-style: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.button2 {
+  height: 30px;
+  font-family: roboto;
+  font-size: 1rem;
+  color: #94a3b8;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #94a3b8;
+  border-radius: 5px;
+  margin-left: 5px;
+}
